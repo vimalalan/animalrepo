@@ -1,0 +1,73 @@
+<html>
+
+<head>
+
+    <style>
+        body {
+            background-color:coral;
+            text-align: center;
+           
+        }
+
+        img {
+            width: 350px;
+            height: 350px;
+        }
+        .wordwrap {
+  word-wrap: break-word;
+}
+
+        .column {
+            float: left;
+            width: 33.33%;
+            text-align: left;
+            margin-right: 30px;
+
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .row{
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        p{
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+       h1{
+           font-size: 50px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+       h2{
+           font-size: 30px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>About Monkey</h1>
+    <div class="row">
+        <div class="column">
+            <img src="monkey.jpg" alt="" width="100%">
+            <a href="portfolio.html"> Back</a>
+        </div>
+        <div class="column">
+            <h2>About the project:</h2>
+            <p class="wordwrap">Monkey is a common name that may refer to certain groups or species of simian mammals of infraorder Simiiformes. The term is applied descriptively to groups of primates, such as families of New World monkeys and Old World monkeys. Many monkey species are tree-dwelling (arboreal), although there are species that live primarily on the ground, such as baboons. Most species are mainly active during the day (diurnal). Monkeys are generally considered to be intelligent, especially the Old World monkeys of Catarrhini.</p>
+            <br>
+            <h2>Countries</h2>
+            <p>India, Kenya, Chili</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

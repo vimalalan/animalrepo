@@ -1,0 +1,87 @@
+<html>
+
+<head>
+
+    <style>
+        body {
+            background-color: lightpink;
+            text-align: center;
+
+        }
+
+        img {
+            width: 350px;
+            height: 350px;
+        }
+
+        .wordwrap {
+            word-wrap: break-word;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            text-align: left;
+            margin-right: 30px;
+
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row {
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+
+        p {
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>About Tiger</h1>
+    <div class="row">
+        <div class="column">
+            <img src="Tiger.jpg" alt="" width="100%">
+            <a href="portfolio.html"> Back</a>
+        </div>
+    </div>
+    <div class="row"></div>
+    <div class="column">
+        <h2>About the project:</h2>
+        <p class="wordwrap">The tiger (Panthera tigris) is the largest living cat species and a member of the genus
+            Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter
+            underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar. It is
+            territorial and generally a solitary but social predator, requiring large contiguous areas of habitat, which
+            support its requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about
+            two years, before they become independent and leave their mother's home range to establish their own.</p>
+    </div>
+    <div class="column">
+        <h2>Countries:</h2>
+        <p>India, Kenya, South Africa</p>
+    </div>
+</div>
+
+
+</body>
+
+</html>
